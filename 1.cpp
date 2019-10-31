@@ -7,14 +7,12 @@ std::cout<< "Escribe el radio: ";
 std::cin >> R;
   int pi=3.145;
     float dia=R*2;
-    std::cout<< "diametro: ";
-    std::cout<< dia;
+    std::cout << "diametro: " << dia << std::endl
     float peri=2*pi*R; 
-    std::cout<< "Perimetro";
-    std::cout<< peri;
+    std::cout << "Perimetro: " << peri << std::endl
     float area=pi*R*R;
-    std::cout<< "Area";
-    std::cout<< area;
+
+    std::cout << "Area: " << area << std::endl
   
   return 0;
 }
