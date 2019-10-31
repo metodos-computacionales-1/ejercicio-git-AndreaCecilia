@@ -3,7 +3,8 @@
 int main(){
 
 std::cout<< "Escribe el radio: ";
-std::cin >> int R;
+    int R;
+std::cin >> R;
   int pi=3.145;
     float dia=R*2;
     std::cout<< "diametro: ";
