@@ -13,7 +13,7 @@ int main( ){
 
         
     
-    if((a*a+b*b==c*c)||(a*a+c*c==b*b)){
+    if((a*a+b*b==c*c)||(a*a+c*c==b*b)||(c*c+b*b==a*a)){
         std::cout << "Si puede " <<  std::endl;
         
     }
