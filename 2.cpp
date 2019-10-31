@@ -2,9 +2,13 @@
 int a;
 int b;
 int c;
-int main( argc = 3; argv[0] = “a”;argv[1] = “b”;argv[2] = “c”;){
+int main( int argc, char *argv[]){
+    argc=3;
+     std::cout << "Have " << argc << " arguments:" << std::endl;
+
+        
     
-    if((a*a+b*b=c*c)|(b*b+c*c=a*a)|(a*a+c*c=b*b)){
+    if((argv[0]*argv[0]+argv[1]*argv[1]=argv[2]*argv[2])){
         std::cout << "Si puede " <<  std::endl;
         
     }
