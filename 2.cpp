@@ -1,14 +1,19 @@
 #include <iostream>
-int a;
-int b;
-int c;
-int main( int argc, char *argv[]){
-    argc=3;
-     std::cout << "Have " << argc << " arguments:" << std::endl;
+
+int main( ){
+    std::cout<< "Escribe un numero: ";
+    int a;
+    std::cin >> a;
+   std::cout<< "Escribe otro numero: ";
+    int b;
+    std::cin >> b; 
+    std::cout<< "Escribe otro numero: ";
+    int c;
+    std::cin >> c;
 
         
     
-    if((argv[0]*argv[0]+argv[1]*argv[1]=argv[2]*argv[2])){
+    if((a*a+b*b==c*c)){
         std::cout << "Si puede " <<  std::endl;
         
     }
